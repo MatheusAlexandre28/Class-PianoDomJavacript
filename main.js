@@ -7,7 +7,7 @@ function playNote(event){ // essa vai ser a função executada após a gente cli
   // keycode
   let keyCode // criar uma variavel vazia
 
-  const iskeyboard = 
+  const iskeyboard = event.type === "keydown" // esta expressão de 3 iguais é exatamente igual, está peguntando se o evento é exatamente igual a keydown
   if(iskeyboard) {
 
   }
