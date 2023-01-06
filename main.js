@@ -11,7 +11,7 @@ function playNote(event){ // essa vai ser a função executada após a gente cli
   if(iskeyboard) { // ou seja sempre que o event.type for keydown ele entra nessa estrutura if
     keyCode = event.keyCode
   } else { // mas se for falso ele entra no else
-
+    keyCode = event.target.dataset.key;
   }
 
   //typed or pressed key
