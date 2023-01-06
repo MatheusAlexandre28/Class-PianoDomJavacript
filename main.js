@@ -7,8 +7,10 @@ function playNote(event){ // essa vai ser a função executada após a gente cli
   // keycode
   let keyCode // criar uma variavel vazia
 
-  const iskeyboard = event.type === "keydown" // esta expressão de 3 iguais é exatamente igual, está peguntando se o evento é exatamente igual a keydown
-  if(iskeyboard) {
+  const iskeyboard = event.type === "keydown" // esta expressão de 3 iguais é exatamente igual, está peguntando se o evento é exatamente igual a keydown ent ele me responde veradadeiro ou falso
+  if(iskeyboard) { // ou seja sempre que o event.type for keydown ele entra nessa estrutura if
+
+  } else { // mas se for falso ele entra no else
 
   }
 
